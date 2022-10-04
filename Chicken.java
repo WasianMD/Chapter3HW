@@ -1,7 +1,7 @@
 public class Chicken extends farmAnimal{
   
   
-  private String sound
+  private String sound;
     
     if(gender.equals(male))
     {
@@ -37,6 +37,7 @@ public class Chicken extends farmAnimal{
   public String toString(){
       return "Chicken " + sound + " [name=" + name + ", gender=" + gender + ", weight=" + weight + ", age=" + age + "]";
     }
+  @Override
   public String feedLoadingSchedule(){
     return "8am-4pm";
   
