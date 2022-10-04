@@ -1,4 +1,4 @@
-public class Chicken extends farmAnimal{
+public class chicken extends farmAnimal{
   
   
   private String sound;
