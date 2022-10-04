@@ -26,9 +26,10 @@ public class farmAnimal{
         return weight;
     }
     public void setWeight(int)
-        
+      
+    abstract void feedLoadingSchedule();    
    
     public String toString(){
-        return "Duck Quack Quack" + "\n"
+        return "Name: " + name + "/n" + "Gender: " + gender + "/n" + "Weight: " + weight + "/n" + "Age: " + age + "/n";
     }
 }
