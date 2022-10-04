@@ -1,1 +1,10 @@
-public class Chicken extends FarmAnimals
+public class Chicken extends FarmAnimal{
+  
+  
+  
+  
+  
+  
+  
+  
+}
