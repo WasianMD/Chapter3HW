@@ -17,5 +17,9 @@ public class airplane extends flight{
         return year;
   }
   public void setYear(int)
+    
+    public String toString(){
+      return "Airplane [model=" + model + ", year=" + year + "]: I'm an airplane that relies on an engine to fly.";
+    }
   
 }
