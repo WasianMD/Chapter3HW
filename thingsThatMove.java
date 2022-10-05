@@ -1,9 +1,6 @@
 public class thingsThatMove extends flight{
   
-  abstract void walk();
-  abstract void jump();
-  
-    public static void main(String[] args){
+      public static void main(String[] args){
        
       Fly[] wings = new Fly[3];
 
