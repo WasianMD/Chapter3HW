@@ -1,4 +1,4 @@
-public class airplane extends flight{
+public class airplane implements flight{
   
   private String model;
   private int year;
