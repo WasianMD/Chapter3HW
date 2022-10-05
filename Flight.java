@@ -1,10 +1,6 @@
-public class flight{
+public interface flight{
   
   abstract void fly();
-  
-  
-  
-  
   
   
 }
