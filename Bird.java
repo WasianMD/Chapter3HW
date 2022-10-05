@@ -1,4 +1,4 @@
-public class bird extends flight{
+public class bird implements flight{
   
   private String type;
   
